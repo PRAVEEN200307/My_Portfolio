@@ -2,6 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
 
 
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -11,7 +12,19 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-.fix::after ,
+.fix::after{
+  content: '';
+  background-color:#2c98f0;
+  height:2px;
+  width:60px;
+  position: absolute;
+  bottom:3px;
+  margin: auto;
+  border-radius: 2px;
+  left:80px;
+  transition:all ease 0.5s;
+  display: block;
+}
 .navbar ul li a::after{
    content: '';
    /* background-color:#2c98f0;   */

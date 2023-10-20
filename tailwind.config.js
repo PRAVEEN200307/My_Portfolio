@@ -9,6 +9,9 @@ export default {
       colors:{
          'light-blue':'#2c98f0',
       },
+      fontFamily: {
+        'play': ['Playfair Display'],
+      }
     },
   },
   plugins: [],
