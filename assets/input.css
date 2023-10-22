@@ -97,7 +97,7 @@
    opacity:1;
  }
  .hero{
-    height:800px;
+    height:auto;
     overflow: hidden;
  }
  #btnNav{
