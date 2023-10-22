@@ -66,47 +66,51 @@
    transition: all ease 0.5s;
 }
 
-
-
-/* responsvie */
-
-@media screen and (max-width:1050px){
-
+@media screen and (max-width:1200px){
   .side_nevbar{
-      transform: translateX(-300px);
-      transition: 0.5s;
-      /* max-width:300px; */
-      z-index:99;
+     position: fixed;
+     top:0;
+     left:0;
+     width:300px;
+     height:800px !important;
+     transform: translateX(-300px);
+
   }
-  /* .open .side_nevbar{
-    transform: translateX(0);
-    box-shadow: 0 0 15px rgba(0,0, 0,0.2);
-  }  */
   .opens .side_nevbar{
-    transform: translateX(0);
+    transform: translateX(0px);
     box-shadow: 0 0 15px rgba(0,0, 0,0.2);
   }
   .navoverlay{
-     position: fixed;
-     top: 0;
-     left: 0;
-     width:100vw;
-     height:100vh;
-     /* background-color: hsl(0, 5%, 76%); */
-     /* backdrop-filter: blur(2px); */
-     visibility: hidden;
-     opacity: 0;
-     transition: 0.3s;
-  }
-  .opens .navoverlay{
-    visibility:visible;
-    opacity:1;
-  }
-  .hero{
-    /* width:100px; */
     position: fixed;
-  }
- 
-  
+    top: 0;
+    left: 0;
+    width:100vw;
+    height:100vh; 
+    /* background-color: hsl(0, 5%, 76%);  */
+    /* backdrop-filter: blur(2px);  */
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s; 
+ }
+ .opens .navoverlay{
+   visibility:visible;
+   opacity:1;
+ }
+ .hero{
+    height:800px;
+    overflow: hidden;
+ }
+ #btnNav{
+    color:#000;
+ }
 }
+
+
+
+
+
+
+
+
+
 
