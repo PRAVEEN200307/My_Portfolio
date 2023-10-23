@@ -66,6 +66,29 @@
    transition: all ease 0.5s;
 }
 
+/* eduacation */
+.head{
+   font-size: large;
+   font-weight: bold;
+   padding: 10px 30px;
+   cursor: pointer;
+   color: rgb(122, 118, 118);
+}
+.content{
+   padding:0 10px;
+   overflow: hidden;
+   max-height:0;
+   transition: 0.5s;
+   color: hwb(0 29% 71%);
+}
+input[type="radio"]:checked + .content{
+    max-height:400px;
+    padding: 30px;
+
+}
+
+
+
 @media screen and (max-width:1200px){
   .side_nevbar{
      position: fixed;

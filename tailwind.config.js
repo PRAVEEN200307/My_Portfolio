@@ -3,6 +3,8 @@ export default {
   content: [
     "./index.html",
     "./About.html",
+    "./Skills.html",
+    "./Education.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
