@@ -70,10 +70,13 @@
 .head{
    font-size: large;
    font-weight: bold;
-   padding: 10px 30px;
+   padding: 15px 30px;
    cursor: pointer;
    color: rgb(122, 118, 118);
+   margin:10px;
+   text-transform: uppercase;
 }
+
 .content{
    padding:0 10px;
    overflow: hidden;
@@ -84,9 +87,11 @@
 input[type="radio"]:checked + .content{
     max-height:400px;
     padding: 30px;
-
+    
 }
-
+.batch{
+    @apply uppercase text-white text-xs mx-2 p-1 rounded  select-none  ;
+}
 
 
 @media screen and (max-width:1200px){
@@ -97,7 +102,7 @@ input[type="radio"]:checked + .content{
      width:300px;
      height:800px !important;
      transform: translateX(-300px);
-
+     
   }
   .opens .side_nevbar{
     transform: translateX(0px);

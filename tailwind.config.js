@@ -5,6 +5,9 @@ export default {
     "./About.html",
     "./Skills.html",
     "./Education.html",
+    "./Project.html",
+    "./Contact.html",
+    "./Extra.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
